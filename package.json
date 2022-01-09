@@ -40,13 +40,13 @@
     "clean": "gatsby clean",
     "start": "npm run develop",
     "preinstall": "npm i -D cli-glob",
-    "build": "npm run clean && gatsby build && npm run concat",
+    "build": "npm run clean && gatsby build & npm run concat",
     "develop": "npm run clean && gatsby develop",
     "copy": "cp -R src/pages/test ./public/data",
     "serve": "gatsby serve",
     "format": "prettier --trailing-comma es5 --no-semi --single-quote --write \"{gatsby-*.js,src/**/*.js}\"",
     "test": "echo \"Error: no test specified\" && exit 1",
-    "concat": "glob \"src/pages/test/**/*.json\" | node concat -o ./public/data/plants.json"
+    "concat": "glob \"src/pages/test/**/*.json\" | node concat -o \"public/data/plants.json\""
   },
   "devDependencies": {
     "cli-glob": "^0.1.0",
