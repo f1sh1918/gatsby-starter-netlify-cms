@@ -1,0 +1,9 @@
+{
+  "templateKey": "test-post",
+  "date": "2022-01-09T00:48:33.093Z",
+  "title": "Test",
+  "description": "Json will ich haben",
+  "featuredpost": false,
+  "featuredimage": "/img/blog-index.jpg",
+  "body": "Test"
+}
